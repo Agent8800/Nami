@@ -137,6 +137,8 @@ Main commands available :
 For all command use / or !
 """
 
+SUMI_DISPACHER_PIC = "https://te.legra.ph/file/ab4397a139620f1fc8b20.jpg"
+
 DONATE_STRING = """ Adding Me To Your Groups Is Donation For Me Though I Would Appreciate If You tell me your honest review about the bot"""
 
 IMPORTED = {}
