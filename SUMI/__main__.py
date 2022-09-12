@@ -66,7 +66,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *Konichiwa {},*
 *I'm Sumi Sakurasawa, I'm A Powerful Group Management Bot.*
-❍ *Owner - @IshikkiAkabane*
+❍ *Owner - [King](t.me/Dark_king_Zero)*
 ❍ *Uptime* - {}
 ❍ *Users* - {}
 ❍ *Chats* - {}
@@ -77,12 +77,12 @@ buttons = [
     [
                         InlineKeyboardButton(
                              text="➕️ Add SUMI To Your Chat ➕️",
-                             url="https://t.me/SUMIxdbot?startgroup=true"),
+                             url="https://t.me/SUMI_x_dbot?startgroup=true"),
                     ],
                    [
                        InlineKeyboardButton(
-                             text="Kazuma Clan",
-                             url="https://t.me/kazumaclanxd"),
+                             text="Association",
+                             url="https://t.me/DevXAssociation"),
                        InlineKeyboardButton(
                              text="About",
                              callback_data="sumi_"),
