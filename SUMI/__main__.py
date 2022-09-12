@@ -64,20 +64,18 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 PM_START_TEXT = """
-*Konichiwa {},*
-*I'm Sumi Sakurasawa, I'm A Powerful Group Management Bot.*
-❍ *Owner - [King](t.me/Dark_king_Zero)*
-❍ *Uptime* - {}
-❍ *Users* - {}
-❍ *Chats* - {}
-**ᴄʟɪᴄᴋ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ꜰᴏʀ ᴍᴏʀᴇ.**
+────「*Hey, I'm Sumi* [🌸](https://telegra.ph/file/377d7e5e9ec235a9e8848.jpg) 」────
+*×× I'm a Sumi! A Anime themed advance group management bot with a lot of advance Features! ××*
+➖➖➖➖➖➖➖➖➖➖
+*×× Try The Help & Command Buttons Below To Know My Abilities ××*
+➖➖➖➖➖➖➖➖➖➖
 """
 
 buttons = [
     [
                         InlineKeyboardButton(
                              text="➕️ Add SUMI To Your Chat ➕️",
-                             url="https://t.me/SUMI_x_dbot?startgroup=true"),
+                             url="https://t.me/SUMI_x_robot?startgroup=true"),
                     ],
                    [
                        InlineKeyboardButton(
@@ -138,19 +136,6 @@ Main commands available :
    • in a group: will redirect you to pm, with all that chat's settings.
 For all command use / or !
 """
-
-SUMI_PIC = "https://telegra.ph/file/eedea672a770ec92363bd.jpg"
-
-SUMI_N_IMG = (
-  "https://te.legra.ph/file/d49e4321e971e90d2d588.jpg",
-  "https://te.legra.ph/file/d49e4321e971e90d2d588.jpg"
-)
-
-SUMI_VID = "https://telegra.ph/file/8d49b6f49362e7778785e.jpg"
-
-PM_PHOTO = "https://te.legra.ph/file/2d75ceb5c898288390b4b.jpg"
-
-SUMI_DISPACHER_PIC = "https://te.legra.ph/file/ab4397a139620f1fc8b20.jpg"
 
 DONATE_STRING = """ Adding Me To Your Groups Is Donation For Me Though I Would Appreciate If You tell me your honest review about the bot"""
 
